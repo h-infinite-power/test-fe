@@ -74,7 +74,7 @@ npm install
 
 ```env
 API_BASE_URL=http://localhost:8080
-NEXT_PUBLIC_API_BASE_URL=http://localhost:8080
+NEXT_PUBLIC_API_BASE_URL=https://h-infinite-power.store -- 현재의 운영서버
 ```
 
 ### 3. 개발 서버 실행
