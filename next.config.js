@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env: {
-    API_BASE_URL: process.env.API_BASE_URL || 'http://localhost:8080',
+    API_BASE_URL: process.env.API_BASE_URL || "https://h-infinite-power.store/",
   },
   // 에러 처리를 위한 페이지 설정
   onDemandEntries: {
@@ -15,12 +15,12 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/root',
-        destination: '/',
+        source: "/root",
+        destination: "/",
         permanent: true,
       },
     ];
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
